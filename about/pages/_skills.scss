@@ -1,0 +1,23 @@
+.skills{
+    .html,
+    .css,
+    .scss{
+        background-color: var(--blue-color);
+        padding: 10px;
+        color: #fff;
+        border-radius: 20px;
+    }
+    @media (max-width:930px){
+        &{
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}
+@media (max-width:930px){
+    .text h3{
+    text-align: center;
+    }
+}

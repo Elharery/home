@@ -1,0 +1,15 @@
+
+.box{
+    border: 2px solid white;
+    border-radius: 10px;
+    // margin: 100px auto;
+    margin: 100px 100px 0;
+    // width: fit-content;
+    padding: 50px;
+    @media (max-width:767px){
+        &{
+            margin: 0;
+            padding: 25px;
+        }
+    }
+}

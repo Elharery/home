@@ -1,0 +1,25 @@
+nav {
+  text-align: right;
+}
+
+.buttons {
+  margin: 30px -30px;
+}
+
+.buttons .about,
+.buttons .project {
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.box {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 100px 100px 0;
+  padding: 50px;
+}
+@media (max-width: 767px) {
+  .box {
+    margin: 0;
+  }
+}
