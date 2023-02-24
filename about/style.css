@@ -347,9 +347,10 @@ nav li a:hover {
   color: var(--orange-color);
 }
 @media (max-width: 767px) {
-  .info.icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .info a.fc,
+  .info a.tel,
+  .info a.wt,
+  .info a.git {
+    font-size: 25px;
   }
 }
