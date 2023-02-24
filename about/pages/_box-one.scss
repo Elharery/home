@@ -1,7 +1,13 @@
 .big{
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    @media (max-width:767px){
+        &{
+            margin: 10px -20px;
+        }
+    }
 }
 .box-one {
+    margin: 0 auto;
     a{
         padding: 10px;
     background-color: rgba(255, 255, 255, 0.25);
