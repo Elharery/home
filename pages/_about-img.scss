@@ -1,0 +1,16 @@
+$media-phone: "max-width: 767px";
+.about{
+    display: flex;
+    gap: 10px;
+    img{
+        width: 250px;
+        border-radius: 10px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    @media ($media-phone){
+        &{
+            flex-direction: column;
+        }
+    }
+}

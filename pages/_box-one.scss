@@ -1,0 +1,59 @@
+.big{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    @media (max-width:767px){
+        &{
+            margin: 15px -20px;
+        }
+    }
+}
+.box-one {
+    margin: 0 auto;
+    a{
+        padding: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    display: block;
+    width: fit-content;
+    border-radius: 15px
+    }
+    img{
+        width: 250px;
+        padding: 10px;
+        border-radius: 15px;
+        height: 200px;
+    }
+    span{
+        display: block;
+    text-align: center;
+    margin: 10px;
+    }
+    a.pro{
+        padding: 10px;
+        border-radius: 20px;
+        margin: 10px auto;
+        display: block;
+        width: fit-content;
+        background-color: rgba(255, 255, 255, 0.25);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        color: #000;
+    &:hover{
+        background-color: #0075ff;
+        color: #fff;
+        transition: 0.3s;
+    }
+    h4{
+        margin: 0;
+    }
+    }
+    .face{
+        font-size: 30px;
+        width: 250px;
+    background: #0075ff;
+    color: #fff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    }
+}

@@ -117,12 +117,12 @@ justify-content: center;
 }
 
 }
-nav{
+/* nav{
       width: fit-content;
       display: flex;
       margin: 0 auto;
       border-bottom: 1px solid #ccc;
-}
+} */
 nav li:hover a::before{
       width: 100%;
 }
@@ -132,7 +132,7 @@ nav a::before{
       background-color: var(--blue-color);
       width: 0;
       height: 2px;
-      bottom: -7px;
+      bottom: -17px;
       transition: 0.3s;
 }
 nav li a{
