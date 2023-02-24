@@ -33,13 +33,17 @@
 
 }
 .info{
+    &:not(:last-child){
+        border-bottom: 1px solid #ccc;
+    }
     padding: 30px 0;
-    border-bottom: 1px solid #ccc;
     h3{
         font-weight: 900;
         margin: 0 0 15px;
+        font-family: "cursive";
+        font-style: italic;
     }
-    a{
+    a.call,a.email{
         &:hover{
             color: #0075ff;
         }
@@ -50,12 +54,18 @@
     a.git{
         padding: 10px;
         font-size: 30px;
+
+        
     }
     a.fc{
         color: #0075ff;
-    }
-    a.tel{
-
+        display: inline-block;
+        height: 57px;
+        // &:hover{
+        //     background-color: #0075ff;
+        //     color: #fff;
+        //     transition: 0.3s;
+        // }
     }
     a.wt{
         color: var(--green-color);

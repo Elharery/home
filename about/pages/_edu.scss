@@ -1,5 +1,11 @@
 $media-phone: "max-width:930px";
+
 .education{
+    @media (min-width:931px){
+        &{
+            margin-top: -20px;
+        }
+    }
     h3 a.edu{
         position: relative;
         width: fit-content;
@@ -46,5 +52,10 @@ $media-phone: "max-width:930px";
                 margin: 0 auto;
             }
         }
+    }
+}
+@media ($media-phone){
+    .about .text .education .two-a{
+        margin: 0 0 20px;
     }
 }

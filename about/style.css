@@ -109,7 +109,12 @@ nav li a:hover {
 @media (max-width: 930px) {
   .text h3 {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto !important;
+  }
+}
+@media (min-width: 931px) {
+  .education {
+    margin-top: -20px;
   }
 }
 .education h3 a.edu {
@@ -159,6 +164,11 @@ nav li a:hover {
   }
 }
 
+@media (max-width:930px) {
+  .about .text .education .two-a {
+    margin: 0 0 20px;
+  }
+}
 .contact a {
   border: 1px solid #fff;
   padding: 10px;
@@ -305,13 +315,17 @@ nav li a:hover {
 
 .info {
   padding: 30px 0;
+}
+.info:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 .info h3 {
   font-weight: 900;
   margin: 0 0 15px;
+  font-family: "cursive";
+  font-style: italic;
 }
-.info a:hover {
+.info a.call:hover, .info a.email:hover {
   color: #0075ff;
 }
 .info a.fc,
@@ -323,6 +337,8 @@ nav li a:hover {
 }
 .info a.fc {
   color: #0075ff;
+  display: inline-block;
+  height: 57px;
 }
 .info a.wt {
   color: var(--green-color);
