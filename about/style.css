@@ -158,11 +158,6 @@ nav li a:hover {
   width: fit-content;
   padding: 10px;
 }
-@media (max-width:930px) {
-  .education p {
-    margin: 0 auto;
-  }
-}
 
 @media (max-width:930px) {
   .about .text .education .two-a {

@@ -47,11 +47,11 @@ $media-phone: "max-width:930px";
         border: 6px double var(--blue-color);
         width: fit-content;
         padding: 10px;
-        @media ($media-phone){
-            &{
-                margin: 0 auto;
-            }
-        }
+        // @media ($media-phone){
+        //     &{
+        //         margin: 0 auto;
+        //     }
+        // }
     }
 }
 @media ($media-phone){
