@@ -60,6 +60,9 @@ ul {
 .j-end{
     justify-content: end;
 }
+.j-ar{
+    justify-content: space-around;
+}
 .center-align{
     display: flex;
     align-items: center;
